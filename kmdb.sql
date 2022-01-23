@@ -93,7 +93,9 @@ CREATE TABLE top_cast (
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
 INSERT INTO movies (movie_title, year_released, mpaa_rating, director)
-VALUES ('Batman Begins','2005', 'PG-13', 'Christopher Nolan');
+VALUES ('Batman Begins','2005', 'PG-13', 'Christopher Nolan')
+VALUES ('The Dark Night','2008', 'PG-13', 'Christopher Nolan')
+VALUES ('The Dark Night Rises','2012', 'PG-13', 'Christopher Nolan');
 
 -- Prints a header for the movies output
 .print "Movies"
