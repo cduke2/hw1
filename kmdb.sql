@@ -93,9 +93,6 @@ CREATE TABLE top_cast (
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
 
-INSERT INTO movies ("Batman Begins","The Dark Night","The Dark Night Rises")
-
-
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
