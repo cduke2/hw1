@@ -88,6 +88,11 @@ CREATE TABLE top_cast (
   movie_id INTEGER
  );
 
+CREATE TABLE enrollment (
+  movie_id INTEGER,
+  actor_id INTEGER
+ );
+
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
@@ -101,8 +106,29 @@ VALUES ("The Dark Night","2008","PG-13","Christopher Nolan");
 INSERT INTO movies (movie_title, year_released, mpaa_rating, director)
 VALUES ("The Dark Night Rises","2012", "PG-13", "Christopher Nolan");
 
-INSERT INTO top_cast (actor_name, character_name, movie_id)
-VALUES ("Christian Bale","Bruce Wayne","1");
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Christian Bale","Bruce Wayne");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Michael Caine","Alfred");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Liam Neeson","Ra's Al Ghul");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Katie Holmes","Rachel Dawes");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Gary Oldman","Commisioner Gordon");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Christian Bale","Bruce Wayne");
+
+INSERT INTO top_cast (actor_name, character_name)
+VALUES ("Christian Bale","Bruce Wayne");
+
+INSERT INTO enrollment (movie_id, actor_id)
+VALUES ("1","1");
 
 -- Prints a header for the movies output
 .print "Movies"
