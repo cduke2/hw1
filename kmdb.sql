@@ -101,6 +101,9 @@ VALUES ("The Dark Night","2008","PG-13","Christopher Nolan");
 INSERT INTO movies (movie_title, year_released, mpaa_rating, director)
 VALUES ("The Dark Night Rises","2012", "PG-13", "Christopher Nolan");
 
+INSERT INTO top_cast (actor_name, character_name, movie_id)
+VALUES ("Christian Bale","Bruce Wayne","1");
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
