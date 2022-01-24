@@ -108,6 +108,8 @@ VALUES ("The Dark Night Rises","2012", "PG-13", "Christopher Nolan");
 
 -- The SQL statement for the movies output
 -- TODO!
+SELECT movie_title, year_released, mpaa_rating FROM movies;
+
 
 -- Prints a header for the cast output
 .print ""
