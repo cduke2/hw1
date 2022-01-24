@@ -149,4 +149,4 @@ SELECT movie_title, year_released, mpaa_rating FROM movies;
 
 -- The SQL statement for the cast output
 -- TODO!
-SELECT actor_name, character_name FROM top_cast;
+SELECT top_cast.actor_name, top_cast.character_name FROM top_cast;
