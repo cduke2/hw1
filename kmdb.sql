@@ -155,7 +155,7 @@ VALUES ("Anne Hathaway","Selina Kyle","3");
 
 -- The SQL statement for the movies output
 -- TODO!
-SELECT movie_title, year_released, mpaa_rating FROM movies;
+SELECT movie_title, year_released, mpaa_rating,director FROM movies;
 
 
 -- Prints a header for the cast output
