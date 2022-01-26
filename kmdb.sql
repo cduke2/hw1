@@ -155,6 +155,7 @@ VALUES ("Anne Hathaway","Selina Kyle","3");
 
 -- The SQL statement for the movies output
 -- TODO!
+.width 2 30 4 5 2
 SELECT movie_title, year_released, mpaa_rating,director FROM movies;
 
 
