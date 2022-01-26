@@ -168,4 +168,7 @@ SELECT movie_title, year_released, mpaa_rating,director FROM movies;
 
 -- The SQL statement for the cast output
 -- TODO!
-SELECT top_cast.actor_name, top_cast.character_name FROM top_cast;
+.width 30 30 30
+SELECT movies.movie_title, top_cast.actor_name, top_cast.character_name 
+FROM top_cast 
+INNER JOIN movie_cast ON id.movie_id;
