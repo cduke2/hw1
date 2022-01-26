@@ -171,4 +171,4 @@ SELECT movie_title, year_released, mpaa_rating,director FROM movies;
 .width 30 30 30
 SELECT movies.movie_title, top_cast.actor_name, top_cast.character_name 
 FROM top_cast 
-INNER JOIN movie_cast ON id.movie_id;
+INNER JOIN top_cast ON id.movie_id;
